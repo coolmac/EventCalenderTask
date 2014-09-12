@@ -40,3 +40,6 @@ gem 'spring',        group: :development
 
 # For User Authentication 
 gem 'devise'
+
+# calender
+gem 'fullcalendar-rails'
