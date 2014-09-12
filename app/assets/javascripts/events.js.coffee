@@ -5,6 +5,8 @@
 $(document).ready ->
   $("#calendar").fullCalendar(
     events: '/events.json'
+    eventColor: '#378006'
+    eventBackgroundColor: 'red'
     
   )
 
