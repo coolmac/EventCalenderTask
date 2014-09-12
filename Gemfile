@@ -43,3 +43,5 @@ gem 'devise'
 
 # calender
 gem 'fullcalendar-rails'
+
+gem 'jquery-turbolinks'
