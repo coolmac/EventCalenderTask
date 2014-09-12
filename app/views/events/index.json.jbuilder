@@ -12,6 +12,6 @@ json.array!(@events) do |event|
   end
 
   if(event.category == "Vacation")
-     json.color 'green'
+     json.color 'red'
   end
 end

@@ -11,7 +11,7 @@
     </div>
   <% end %>
    <div class="field">
-    <%= f.label :Event Category %><br>
+    <%= f.label :event_category %>
     <%=f.select :category, options_for_select(%w[Meeting Adventure Vacation])%>
   </div>
 

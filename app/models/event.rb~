@@ -6,7 +6,7 @@ class Event < ActiveRecord::Base
    #validation for event should start first than end
     validate :validate_timings
     def validate_timings
-      if (start_time >= end_time) 
+      if (start_time > end_time) 
         errors[:base] << "Start Time must be less than End Time"
        end
     end
